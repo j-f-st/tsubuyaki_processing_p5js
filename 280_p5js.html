@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+<style>
+    canvas {
+        transform-origin: left top;
+        transform: scale(2);
+    }
+</style>
+</head>
+<body>
+<script>
+a=25,y=300,n=99
+function setup(){createCanvas(y,y)}function draw(){if(y<n){background("cyan")//"#6cf"
+text("🌞",n,y)}else{background(y/2);ar="233445644753856945"
+for(i=5;i--;){f="ellipse(";for(z=0;z<3;z++){f+=(ar[i*3+z]|0)*a
+f+=z!=2?",":")"}eval(f)}text("🛧",n,y)
+noStroke()
+fill(n)
+y--}}
+// ellipse(60,80,60,60);
+// ellipse(120,120,100,100);
+// ellipse(140,100,140,140);
+// ellipse(200,100,180,180);
+// ellipse(280,80,120,120);
+// ellipse(300,100,80,80);
+</script>
+</body>
+</html>
